@@ -1,8 +1,9 @@
-.menu {
+/*.menu {
     font-family : Arial, Helvetica, sans-serif;
     text-decoration:none;
     color : #b8b8b8;
 }
+*/
 
 h2{
     text-align: center;
@@ -14,16 +15,42 @@ a:hover {
     color : #323232;
     width: 100%;
     margin: 0%;
-    padding:0% auto;
     background-color: #949494
 }
 
 #pc-side-nav {
-    padding-bottom: 50%;
-    left: 80%;
-    top : 0%;
-	width: 20%;
+    top : 0%;    
+    width: 100%;
     position: fixed;
     background-color: #323232
 }
+
+#nav {
+    list-style: none;
+    overflow: hidden;
+  }
+  
+  #nav li {
+    width: 140px;
+    text-align: center;
+    background-color: #333;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    margin-right: 2px;
+  }
+  
+  #nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+  }
+
+  #nav li p{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px;
+  }
 
